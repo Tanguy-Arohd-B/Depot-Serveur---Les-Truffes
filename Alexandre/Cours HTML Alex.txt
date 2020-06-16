@@ -1,0 +1,179 @@
+Cours HTML 16.06
+
+* voir IDE :PHPstorm / web storm
+
+RTE : reach text editor ; numerote lignes autocomplétion , éditeur de texte enrichi.
+
+HTML : XHTML -> HTML4 -> HTML5
+
+HTML : Fichier txt qui doit etre interprété avec des médias (stocker du contenu avec balise)
+
+Structure d'une page et conseils de code ----------------------------------------------------
+<!DOCTYPE html> = annonce le langage.
+
+/!\ Attention ne pas faire d'espace, vraiment coller  le doctype./!\
+
+
+/!\ Ne jamais mettre de nomenclature au pluriel pour faciliter le code.
+
+url : pas de caractères spéciaux ou accentués
+
+nom de fichier :  =\= - et _  ex : leroy_merlin ou chemise-ete  !\
+
+ctrl alt l : Reformater le code.
+
+Indente avec 4 espaces et non tab
+
+balise <> </>  
+
+attribut lang="" = annonce de la langue.
+
+ex "fr-FR" = français France
+    "eng" = anglais
+
+meta charset = set de caractères
+        UTF = codage universel.
+            ex: <meta charset="UTF-8"/>
+
+
+
+title = nom de l'onglet.
+
+<title>Title</title>
+
+Pour référencement : un url = Titre + descrition ( <meta name=description" content="description"/>) 
+--------------------------------------------------------------------
+si besoin d'un lieu spécifique utiliser métatag lieu.
+
+geo-tag.de = trouver des metatag d'un lieu.
+
+navigateur = moteur de rendu + moteur javascript
+
+bibliothèque (library) : jquery , bootstraps  = du code partagé .
+
+=/= 
+
+framework : cadre de travail (pages, dossiers codés d'une certaine manière)
+
+ex : symphony pour php , material & foundation js  
+
+mais aussi cms : Wordpress
+
+ovh pour l'hebergement.
+----------------------------------------------------------------
+
+paragraphe = 
+<p></p>
+
+lorem = générer du langage aléatoire
+
+<h1> = Gros titre (penser a mettre des mots clés pour reference)
+ <h1>Titre de la page</h1>
+
+ <h2> = sous titre de la page
+ <h2>sous titre de la page</h2>
+
+ <h3> = sous sous titre de la page
+ <h3> sous sous titre de la page</h3>
+ [etc.]
+
+<blockquote> = Citation
+<blockquote> bloc de citation</blockquote>
+
+ctrl shift v = stocker plusieur 'copier'
+
+alt clic : multicurseur à l'intérieur de balises.
+
+<b> affichage , >strong> ref : texte gras
+
+<b>texte gras affichage</b>
+        ex <strong>texte gras référencement</strong>
+
+<i>,<em> : texte italique
+
+	ex <i>texte italique affichage</i>
+        <em>texte italique référencement</em>
+
+<br/> : retour à la ligne
+<wbr/> : retour conditionnel.
+
+<sub> : indice position sous 
+<sup> : indice position superieur
+---------------------------------------------------------------------
+Balises dans les balises <titre> et <p>
+
+<span> : Permet de changer la couleur et apparence du texte (quelques mots) sous ces balises.
+	ex    <span>formatage neutre</span>
+
+
+<small> :petit formatage
+	ex <small>petit texte</small>
+
+<mark> : Marqueur (stabilot) sur texte 
+	ex: <mark>surlignage</mark>   
+<q> : Citation courte
+	ex : <q>citation courte</q>
+
+<pre> :
+
+<abbr title=""> TGV</abbr>
+
+caractères spéciaux :
+
+&nbsp; : espace insécable  (non break space) 
+
+Ctrl slash : Commentaire
+
+copychar cc = trouver symbole sur internet
+
+---------------------------------------------------------------------------------------------------------
+
+Structures :
+
+<header>: en tête d'une zone (haut - bas etc.)
+
+ 	ex :<header> en tête</header>
+
+<footer>: pied de page d'une zone
+
+	ex :  <footer> pied de page</footer>
+
+<nav> :
+
+<main> : Balise générale zne de contenu
+<section> : Espace différent.
+
+<article> : Regroupe deux balises (image titre etc...)
+
+/! section considéré comme un morceau du parent. /!
+
+<aside> : N'a pas de lien avec le contenu proche (référencement)
+
+<img src="url image" alt="texte alternatif" title="commentaire du texte alter"/>
+
+<figure> : lier des images entre-elles.
+
+<figcaption> : légende de mes images.
+
+html5test.com
+
+<time> : Indiquer le jour de l'an.
+
+<time datetime="2020-01-01 00:00:00"> jour de l'an </tim>
+
+<dialog> : fenêtre pop up.
+
+	ex :<dialog open="open"> popup echange avec l'internaute</dialog>
+
+-------------------------------------------------------------------------------------------------------
+<table> : Tableau
+  => <tr> 
+	<td>table ->table row -> table ->data </td>
+
+border-collapse: collapse;
+
+<th> : entête de tableau 
+
+<td> : ligne
+
+<td rowspan="nbr"> : fusionner des lignes entre elles.
