@@ -177,3 +177,8 @@ border-collapse: collapse;
 <td> : ligne
 
 <td rowspan="nbr"> : fusionner des lignes entre elles.
+
+-------------------------------------------------------------------------------------------------------
+formulaire
+
+<form action=""> : echanger des informations entre un utilisateur et un serveur.
